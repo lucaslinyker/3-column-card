@@ -14,24 +14,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     background-color: var(--color5);
     color: var(--color4);
     font-family: 'Lexend Deca', sans-serif;
 }
 
 .cards {
+    margin: 90px 0px 88px 0px;
     width: 325px;
     height: 1320px;
     border-radius: 10px;
@@ -44,6 +41,7 @@ body {
 }
 
 .card--one {
+    border-radius: 10px 10px 0 0;
     background-color: var(--color1);
 }
 
@@ -52,6 +50,7 @@ body {
 }
 
 .card--three {
+    border-radius: 0 0 10px 10px;
     background-color: var(--color3);
 }
 
