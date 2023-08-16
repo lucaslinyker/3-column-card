@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    --color1: #e38826;
+    --color2: #006970;
+    --color3: #004241;
+
+    --color4: #ffffffbf;
+    --color5: #f2f2f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--color5);
+    color: var(--color4);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.cards {
+    width: 325px;
+    height: 1320px;
+}
+
+.card {
+    width: 325px;
+    height: 440px;
+    padding: 50px;
+}
+
+.card--one {
+    border-radius: 10px 10px 0 0;
+    background-color: var(--color1);
+}
+
+.card--two {
+    background-color: var(--color2);
+}
+
+.card--three {
+    border-radius: 0 0 10px 10px;
+    background-color: var(--color3);
+}
+
+.card__title {
+    margin: 30px 0px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2em;
+}
+
+.card__description {
+    width: 225px;
+    margin: 30px 0px;
+    line-height: 1.5rem;
+    font-size: 0.9em;
+}
+
+.card__btn {
+    width: 125px;
+    height: 45px;
+    background-color: var(--color5);
+    border: 2px solid var(--color5);
+    border-radius: 50px;
+    font-size: 0.95em;
+    transition: all .3s;
+}
+
+.card__btn--one {
+    color: var(--color1);
+}
+
+.card__btn--two {
+    color: var(--color2);
+}
+
+.card__btn--three {
+    color: var(--color3);
+}
+
+.card__btn:hover {
+    background-color: transparent;
+    color: var(--color5);
+    cursor: pointer;
+}
+
+
+.attribution {
+    color: black;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution__link {
+    text-decoration: none;
+}
+
+.attribution__link:hover {
+    text-decoration: underline;
+}
