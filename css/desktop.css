@@ -1,0 +1,19 @@
+.cards {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+}
+
+.card--one {
+    border-radius: 10px 0 0 10px;
+}
+
+.card--three {
+    border-radius: 0 10px 10px 0;
+}
