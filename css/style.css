@@ -100,6 +100,7 @@ body {
 .attribution {
     color: black;
     font-size: 11px;
+    margin-bottom: 10px;
 }
 
 .attribution__link {
